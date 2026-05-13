@@ -11,6 +11,7 @@ const SavedScreen = ({ navigation }: any) => {
     <RecipeCard
       recipe={item}
       onPress={() => navigation.navigate("Detail", { id: item.idMeal })}
+      isBookmarked={true}
     />
   );
 
